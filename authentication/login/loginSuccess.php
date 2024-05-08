@@ -3,6 +3,7 @@
     if(isset($_SESSION["un"]) and isset($_SESSION["pass"])) 
     {
         echo "successfully logged in";
+        header("location:view.php");
     }
     else 
     {
