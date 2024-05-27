@@ -12,7 +12,7 @@
         {
             return $this->firstname;
         }
-    }
+    } 
 
     $person1=new Person();
     $person1->set_first_name("james");
